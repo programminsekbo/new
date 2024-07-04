@@ -1,6 +1,6 @@
   "use strict";
-let i;
-for(i=0;i<=100; i++){
+  var myArra = ["a","b","c"]
+  for(let mykkk of myArra){
 
-  console.log("allah")
-}
+    console.log(mykkk)
+  }
