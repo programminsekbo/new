@@ -1,7 +1,6 @@
   "use strict";
-var hridoy=function(value){
+let i;
+for(i=0;i<=100; i++){
 
-return value;
-
+  console.log("allah")
 }
-console.log("hridkoy");
