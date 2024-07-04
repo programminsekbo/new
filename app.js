@@ -1,6 +1,15 @@
   "use strict";
-  var myArra = ["a","b","c"]
-  for(let mykkk of myArra){
+  var hridoy ={
 
-    console.log(mykkk)
+     name:"ridoy",
+     roll:500415,
+     shift:2,
+     home:"dinajpur",
+     father:"mothlab",
+
   }
+for(let props in hridoy){
+  console.log( props+" "+hridoy[props])
+
+
+}
