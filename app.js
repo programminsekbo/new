@@ -1,7 +1,11 @@
   "use strict";
+function show(a,b,...numbers) {
+  let sum=0;
+   for(let i of numbers){
+   sum=sum+1;
 
-let arr = [ 'hridoy','islam','nahid', 'porpor'];
+   }
+console.log(sum);
 
-let abr = [ ...arr,'bangladehs','inda','pakistan'];
-
-console.log(abr)
+}
+show(1,2,5,5,1)
