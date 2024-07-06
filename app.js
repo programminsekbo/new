@@ -1,26 +1,18 @@
   "use strict";
 
-var mymap = new Map()
+var myset = new Set()
 
-mymap.set("key1","ban")
-
-mymap.set("key2","bangladesh")
-
-mymap.set("key3","bangladesh")
-
-mymap.set("key4","bangladesh")
-
-mymap.set("key5","bangladesh")
-
-if(mymap.has("key10")){
-
+myset.add("inda")
+myset.add("bangladesh")
+myset.add("pakistan")
+myset.add("napal")
+myset.add("inda")
+ if(myset.has("inda")){
 
   console.log("yes")
-}
+ }
 else{
 
   console.log("no")
 }
-
-
 
