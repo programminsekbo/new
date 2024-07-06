@@ -1,11 +1,8 @@
   "use strict";
-  function mygd(){
+ var myFun = function(){
 
-    return 20;
+  return "hello";
+ }
+  
 
-  }
-  function good(){
-  return 10;
-  }
-
-  console.log(mygd(50)+good(20))
+ console.log(myFun())
