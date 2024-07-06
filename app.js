@@ -1,8 +1,12 @@
           "use strict";
-       class myClass{
-        constructor(){
+     class person{
 
-          console.log("hello word")
+       static  name="hridoy"
+       static roll=500415
+
+
+
+
 
         }
 
@@ -10,5 +14,10 @@
 
 
 
-       }
-       new myClass();
+
+  
+
+    console.log(person.name)
+    
+    console.log(person.roll)
+   
