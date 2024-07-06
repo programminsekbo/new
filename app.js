@@ -1,6 +1,14 @@
   "use strict";
-var one = ["dinajpor","sethabgonj","rampur","thakurgonj"]
-var two = ["1","2","3","4"]
-var thre = ["a","b","c","d"]
-var mot = [one,two,thre]
-console.log(mot[2][3])
+
+var mymap = new Map()
+
+mymap.set("key1","bangladesh")
+
+mymap.set("key2","bangladesh")
+
+mymap.set("key3","bangladesh")
+
+mymap.set("key4","bangladesh")
+
+mymap.set("key5","bangladesh")
+console.log(mymap.keys())
