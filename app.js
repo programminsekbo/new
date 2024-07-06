@@ -1,18 +1,33 @@
-  "use strict";
+          "use strict";
+        class myClass{
+        myfun(){
+          console.log("hello word")
 
-var myset = new Set()
 
-myset.add("inda")
-myset.add("bangladesh")
-myset.add("pakistan")
-myset.add("napal")
-myset.add("inda")
- if(myset.has("inda")){
+        }
+        myfun1(){
+          console.log("my name is")
 
-  console.log("yes")
- }
-else{
 
-  console.log("no")
-}
+        }
+        myfun2(){
+          console.log("my home town ")
 
+
+        }
+        myfun3(){
+          console.log("i love you ma")
+
+
+        }
+          
+
+
+        }
+
+        var objat =new myClass;
+        objat.myfun()
+        objat.myfun1()
+        objat.myfun2()
+        objat.myfun3()
+      
