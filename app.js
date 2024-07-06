@@ -1,15 +1,11 @@
   "use strict";
-  var hridoy ={
+  function mygd(){
 
-     name:"ridoy",
-     roll:500415,
-     shift:2,
-     home:"dinajpur",
-     father:"mothlab",
+    return 20;
 
   }
-for(let props in hridoy){
-  console.log( props+" "+hridoy[props])
+  function good(){
+  return 10;
+  }
 
-
-}
+  console.log(mygd(50)+good(20))
