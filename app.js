@@ -1,21 +1,10 @@
           "use strict";
-    let myCuntriy = ["a","b","c",]
-
-    for (let props in myCuntriy) {
-
-      console.log(props+" "+myCuntriy[props])
-    }
+let one =(...x)=>{
+  console.log(x)
 
 
-
-
-
-
-
-
-
-
-
+}
+one(1,2,5,6,6,)
 
 
 
