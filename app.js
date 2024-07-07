@@ -1,18 +1,8 @@
           "use strict";
-let one =(...x)=>{
-  console.log(x)
+var one = ['pak','inda','ban','napal']
+var [ , ,c]=one
 
-
-}
-one(1,2,5,6,6,)
-
-
-
-
-
-
-
-
+console.log(c)
 
 
 
