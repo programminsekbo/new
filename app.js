@@ -1,23 +1,117 @@
           "use strict";
-     class person{
+    let myCuntriy = ["a","b","c",]
 
-       static  name="hridoy"
-       static roll=500415
+    for (let props in myCuntriy) {
 
-
-
-
-
-        }
+      console.log(props+" "+myCuntriy[props])
+    }
 
 
 
 
 
 
-  
 
-    console.log(person.name)
-    
-    console.log(person.roll)
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
