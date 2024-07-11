@@ -1,25 +1,31 @@
           "use strict";
-let myset = new Set()
-myset.add("inda")
-myset.add("bandes")
-myset.add("naple")
-myset.add("hridoy")
-myset.add("riya")
-myset.add("poprpor")
-if(myset.has('yes')){
+  class parent{
 
-    console.log('hrido')
-}
-else{
-    console.log('no')
-}
+
+   add(){
+
+      console.log('hello')
+   }
+   add2(){
+
+      console.log("i love you")
+   }
+  }
+
+  class hridoy extends parent{
+   dome(){
+      super.add()
+      super.add2()
+
    
+   }
 
 
 
+  }
 
-
-
+  let ridoy = new hridoy();
+  ridoy.dome()
 
 
 
